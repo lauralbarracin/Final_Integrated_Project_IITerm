@@ -46,7 +46,7 @@ Accessibility
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip-path: auto !important;
   color: #626262;
   display: block;
@@ -117,8 +117,9 @@ img {
 
 .box-model {
   text-align: center;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  font-size: 33px;
 }
 
 .ml-subtitles {
@@ -418,12 +419,12 @@ img {
     background-color: #fff;
     top: 0px;
     border-bottom: 1px solid #e6e6e6;
-    box-shadow: 0px 5px 8px #888;
     z-index: 9999;
   }
 
   .logo {
     grid-column: 1 / span 1;
+  
   }
 
   .logo img {
@@ -440,7 +441,6 @@ img {
     background-color: #fff;
     top: 0px;
     border-bottom: 1px solid #e6e6e6;
-    box-shadow: 0px 5px 8px #888;
   }
 
   /*------------  End Mobile Site header ------------*/
@@ -875,6 +875,10 @@ img {
 
   .flavor__title {
     text-align: center;
+    color: gray;
+    font-size: 14px;
+    
+    
   }
 
   /* Flavor block end */
@@ -893,6 +897,7 @@ img {
       background-image: url('../img/banner750.png');
     }
 
+    
     .cocktails-content {
       margin-bottom: 20px;
       color: #fff;
@@ -904,6 +909,8 @@ img {
       margin-top: 2em;
       margin-left: 1em;
       margin-right: 2em;
+     
+     
     }
 
     .center-text {
@@ -1288,6 +1295,7 @@ img {
       margin-top: 3em;
       margin-left: 1em;
       margin-right: 4em;
+      
     }
 
     .button1 {
